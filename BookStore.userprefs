@@ -1,26 +1,6 @@
 ﻿<Properties StartupConfiguration="{97E23339-30E9-4B1D-959C-8D6C4F9679CD}|Default">
   <MonoDevelop.Ide.ItemProperties.BookStore AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.192.168.59.101:5555" AndroidDesignerPreferredTheme="Theme.NoTitleBar" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BookStore/Book.cs">
-    <Files>
-      <File FileName="BookStore/MainActivity.cs" Line="48" Column="19" />
-      <File FileName="BookStore/BooksAdapter.cs" Line="52" Column="16" />
-      <File FileName="BookStore/Book.cs" Line="6" Column="15" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="BookStore" expanded="True">
-            <Node name="BookStore" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="layout" expanded="True" />
-              </Node>
-              <Node name="Book.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

@@ -11,19 +11,20 @@
         <TextView
             android:text="Name"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/nameTextView"
-            android:paddingRight="20dp"
             android:textSize="22dp"
-            android:layout_weight="0.75" />
+            android:layout_weight=".85"
+            android:paddingRight="0dp" />
         <TextView
             android:text="Year"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:gravity="right"
             android:id="@+id/yearTextView"
-            android:layout_weight="0.25"
+            android:layout_weight="0.15"
             android:textSize="16dp" />
     </LinearLayout>
     <LinearLayout
