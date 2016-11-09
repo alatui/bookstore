@@ -27,7 +27,8 @@ namespace BookStore
 				Author = "J.K. Rowling",
 				Name = "Harry Potter and the Sorcerer's Stone",
 				Publisher = "Bloomsbury",
-				Year = 1997
+				Year = 1997,
+				ImageId = Resource.Drawable.HP1
 			});
 			bookList.Add(new Book()
 			{
@@ -35,7 +36,8 @@ namespace BookStore
 				Author = "J.K. Rowling",
 				Name = "Harry Potter and the Chamber of Secrets",
 				Publisher = "Bloomsbury",
-				Year = 1998
+				Year = 1998,
+				ImageId = Resource.Drawable.HP2
 			});
 			bookList.Add(new Book()
 			{
@@ -43,7 +45,8 @@ namespace BookStore
 				Author = "J.K. Rowling",
 				Name = "Harry Potter and the Prisoner of Azkaban",
 				Publisher = "Bloomsbury",
-				Year = 1999
+				Year = 1999,
+				ImageId = Resource.Drawable.HP3
 			});
 
 			//ListAdapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, new string[] {"Google", "Facebook", "Twitter", "Microsoft"} );
@@ -53,6 +56,28 @@ namespace BookStore
 			var listAdapter = new BooksAdapter(this);
 			listAdapter.books = bookList;
 			ListAdapter = listAdapter;
+
+			this.ListView.ItemClick+= ListView_ItemClick;
+
+		}
+
+		void ListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+		{
+
+			if (e == null) {
+				return;
+			}
+
+			var selectedBook = bookList[e.Position];
+			var intent = new Android.Content.Intent(this, typeof(DetailsActivity));
+
+			Bundle bundle = new Bundle();
+			bundle.PutString("book_name", selectedBook.Name);
+			bundle.PutInt("book_image", selectedBook.ImageId);
+
+			intent.PutExtras(bundle);
+
+			StartActivity(intent);
 
 		}
 	}

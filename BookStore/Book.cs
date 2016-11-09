@@ -8,6 +8,7 @@ namespace BookStore
 		public string Author;
 		public string Publisher;
 		public int Year;
+		public int ImageId;
 
 
 		public override string ToString()

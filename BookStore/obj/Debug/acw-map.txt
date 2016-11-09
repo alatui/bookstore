@@ -6,3 +6,7 @@ BookStore.BooksAdapter, BookStore;md540b0284c7f3c9f691d6a9316a13dce61.BooksAdapt
 BookStore.BooksAdapter, BookStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md540b0284c7f3c9f691d6a9316a13dce61.BooksAdapter
 BookStore.BooksAdapter;md540b0284c7f3c9f691d6a9316a13dce61.BooksAdapter
 bookstore.BooksAdapter;md540b0284c7f3c9f691d6a9316a13dce61.BooksAdapter
+BookStore.DetailsActivity, BookStore;md540b0284c7f3c9f691d6a9316a13dce61.DetailsActivity
+BookStore.DetailsActivity, BookStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md540b0284c7f3c9f691d6a9316a13dce61.DetailsActivity
+BookStore.DetailsActivity;md540b0284c7f3c9f691d6a9316a13dce61.DetailsActivity
+bookstore.DetailsActivity;md540b0284c7f3c9f691d6a9316a13dce61.DetailsActivity

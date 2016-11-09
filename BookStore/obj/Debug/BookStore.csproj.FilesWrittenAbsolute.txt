@@ -16,3 +16,7 @@
 /Users/fernandocisneros/Documents/sites_web/AndroidProjects/BookStore/BookStore/obj/Debug/BookStore.dll
 /Users/fernandocisneros/Documents/sites_web/AndroidProjects/BookStore/BookStore/obj/Debug/BookStore.dll.mdb
 /Users/fernandocisneros/Documents/sites_web/AndroidProjects/BookStore/BookStore/obj/Debug/res/layout/bookcell.xml
+/Users/fernandocisneros/Documents/sites_web/AndroidProjects/BookStore/BookStore/obj/Debug/res/layout/details.xml
+/Users/fernandocisneros/Documents/sites_web/AndroidProjects/BookStore/BookStore/obj/Debug/res/drawable/hp1.jpeg
+/Users/fernandocisneros/Documents/sites_web/AndroidProjects/BookStore/BookStore/obj/Debug/res/drawable/hp2.jpg
+/Users/fernandocisneros/Documents/sites_web/AndroidProjects/BookStore/BookStore/obj/Debug/res/drawable/hp3.jpg

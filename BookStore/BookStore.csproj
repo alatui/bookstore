@@ -49,6 +49,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Book.cs" />
     <Compile Include="BooksAdapter.cs" />
+    <Compile Include="DetailsActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -64,6 +65,10 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\layout\BookCell.axml" />
+    <AndroidResource Include="Resources\layout\Details.axml" />
+    <AndroidResource Include="Resources\drawable\HP1.jpeg" />
+    <AndroidResource Include="Resources\drawable\HP2.jpg" />
+    <AndroidResource Include="Resources\drawable\HP3.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
